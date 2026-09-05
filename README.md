@@ -6,7 +6,7 @@ type, budget, and deadline, and generates a clear, structured requirement summar
 
 ## Features
 - Takes Project Type, Business Name, Budget, Deadline, and Extra Details as input
-- Uses Gemini LLM (gemini-2.0-flash) to generate a structured project summary
+- Uses Gemini LLM (models/gemini-3.6-flash) to generate a structured project summary
 - Outputs: Project Overview, Key Features, Suggested Tech Stack, Timeline, and Next Steps
 
 ## PEAS Framework
@@ -20,7 +20,7 @@ type, budget, and deadline, and generates a clear, structured requirement summar
 
 ## How to Run
 1. Open this notebook in Google Colab
-2. Add your Gemini API key to Colab Secrets with the name `GEMINI_API_KEY`
+2. Add your Gemini API key to Colab Secrets with the name `Gemini_API_Key_2`
 3. Run all cells from top to bottom (Runtime → Run all)
 4. Call the function with your project type, business name, budget, deadline, and details
 
